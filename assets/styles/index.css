@@ -114,4 +114,105 @@ header .main-header button {
   line-height: 34px;
   margin: 0 auto;
   font-size: 1.2rem;
+}
+
+.icon-part {
+  background: rgb(15, 15, 15);
+  color: whitesmoke;
+  padding: 65px 0;
+}
+.icon-part .icon-part-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.icon-part .icon-part-container .lip-logo {
+  margin-bottom: 30px;
+}
+.icon-part .icon-part-container h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.icon-part .icon-part-container p {
+  width: 80%;
+  margin: 10px auto 20px;
+}
+.icon-part .icon-part-container button {
+  padding: 9px 32px;
+}
+
+.news-part {
+  background: white;
+  padding: 65px 0;
+}
+.news-part .header-news {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 0 25px;
+}
+.news-part .header-news .left-part {
+  line-height: 30px;
+}
+.news-part .header-news .left-part h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: left;
+  font-weight: 600;
+}
+.news-part .header-news .left-part p {
+  text-align: left;
+}
+.news-part .header-news .right-part button {
+  letter-spacing: 1px;
+  color: black;
+  border-color: black;
+  padding: 10px 20px;
+}
+.news-part .header-news .right-part button:hover {
+  color: whitesmoke;
+  background: rgba(0, 0, 0, 0.9);
+}
+.news-part .main-news .main-news-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1100px;
+  margin: 45px auto;
+}
+.news-part .main-news .main-news-container > div {
+  position: relative;
+  max-width: 23%;
+}
+.news-part .main-news .main-news-container > div .mn-pic img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 3px;
+  box-shadow: 0 2px 10px #888;
+}
+.news-part .main-news .main-news-container > div h4 {
+  margin: 15px 0;
+  text-align: left;
+}
+.news-part .main-news .main-news-container > div P {
+  text-align: left;
+  font-size: 0.8rem;
+  line-height: 20px;
+  margin-bottom: 45px;
+}
+.news-part .main-news .main-news-container > div .link {
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+}
+.news-part .main-news .main-news-container > div .link a {
+  color: rgb(95, 4, 170);
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 900;
+  letter-spacing: 1px;
 }/*# sourceMappingURL=index.css.map */
