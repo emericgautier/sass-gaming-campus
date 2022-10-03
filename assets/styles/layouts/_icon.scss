@@ -1,0 +1,36 @@
+.icon-part {
+
+    background: rgb(15, 15, 15);
+    color: whitesmoke;
+    padding: 65px 0;
+
+    .icon-part-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1100px;
+        margin: 0 auto;
+
+        .lip-logo {
+           margin-bottom: 30px;
+        }
+
+        h3 {
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+        p {
+            width: 80%;
+            margin: 10px auto 20px;
+        }
+
+        button {
+            padding: 9px 32px;
+        }
+    }
+
+
+
+
+}
