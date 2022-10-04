@@ -215,4 +215,92 @@ header .main-header button {
   font-size: 0.7rem;
   font-weight: 900;
   letter-spacing: 1px;
+}
+
+.contact {
+  padding: 65px 0 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.contact .contact-list {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 400;
+  position: relative;
+}
+.contact .contact-list::after {
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 1px;
+  background: rgb(228, 228, 228);
+  bottom: -20px;
+}
+.contact .contact-list .list {
+  width: 24%;
+  text-align: left;
+}
+@media screen and (max-width: 895px) {
+  .contact .contact-list .list {
+    padding-left: 15px;
+  }
+}
+.contact .contact-list .list .contact-img img {
+  margin: 0 auto;
+  display: block;
+}
+.contact .contact-list .list h5 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+.contact .contact-list .list .infos-p li {
+  margin: 15px 0;
+}
+.contact .contact-list .list p {
+  line-height: 22px;
+  margin-bottom: 15px;
+}
+.contact .contact-list .list h6 {
+  font-size: 0.8rem;
+  margin-bottom: 8px;
+}
+.contact .contact-list .list .network {
+  margin: 20px 0 8px;
+}
+.contact .contact-list .list .footer-logos i {
+  font-size: 0.8rem;
+  margin: 0 12px 30px 0;
+}
+.contact .contact-medias {
+  padding: 60px 0 15px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  width: 95%;
+}
+.contact .contact-medias .medias-text {
+  text-align: left;
+  width: 30%;
+}
+.contact .contact-medias .medias-text h3 {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+}
+.contact .contact-medias .medias-text p {
+  font-size: 0.8rem;
+}
+.contact .contact-medias .medias-logos {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+.contact .contact-medias .medias-logos img {
+  width: 60px;
+}
+@media screen and (max-width: 895px) {
+  .contact .contact-medias .medias-logos img {
+    width: 40px;
+  }
 }/*# sourceMappingURL=index.css.map */
