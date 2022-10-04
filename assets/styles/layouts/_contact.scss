@@ -3,6 +3,10 @@
     max-width: 1100px;
     margin: 0 auto;
 
+    @media screen and (max-width: 705px) {
+        display: none;
+    }
+
     .contact-list {
         display: flex;
         justify-content: space-around;
