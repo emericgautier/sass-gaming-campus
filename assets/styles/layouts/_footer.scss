@@ -1,0 +1,30 @@
+footer {
+    background: rgb(15,15,15);
+    padding: 25px;
+    color: whitesmoke;
+
+    h3 {
+        text-transform: uppercase;
+        margin-bottom: 32px;
+        font-weight: 700;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+
+        @media screen and (max-width: 895px){
+            flex-wrap: wrap;
+           }
+
+        li {
+            margin: 5px;
+        }
+    }
+
+
+
+}
